@@ -16,6 +16,7 @@ find_package(geometry_msgs REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/SpeechToText.srv"
   "srv/RecordAudio.srv"
+  "srv/SetTranscriptionMode.srv"
   DEPENDENCIES geometry_msgs
 )
 

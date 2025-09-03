@@ -1,0 +1,7 @@
+# Request
+string language #The language in which to transcript 'es' for Spanish 'en' for English
+bool state #True to enable transcription and publishing to a topic. False to stop publishing
+---
+# Response
+bool success
+string message
