@@ -1,0 +1,10 @@
+# Request
+string model_provider
+string model_name
+string temperature
+string max_tokens
+string context
+---
+# Response
+bool success
+string message
