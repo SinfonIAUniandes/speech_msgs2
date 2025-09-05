@@ -2,7 +2,7 @@
 string model_provider
 string model_name
 string temperature
-string max_tokens
+int max_tokens
 string context
 ---
 # Response
