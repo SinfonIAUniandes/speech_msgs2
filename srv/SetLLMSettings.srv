@@ -1,8 +1,8 @@
 # Request
 string model_provider
 string model_name
-string temperature
-int max_tokens
+float temperature
+int16 max_tokens
 string context
 ---
 # Response
