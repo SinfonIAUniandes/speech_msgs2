@@ -1,0 +1,10 @@
+# Request
+string prompt
+string user_id     # "" -> "anonimo" (no guarda memoria)
+string thread_id   # "" -> user_id; uno por sesión de conversación
+---
+# Response
+bool success
+string answer
+string perfil      # perfil elegido por el router (útil para depurar/UI)
+string message     # error si success=false

@@ -19,6 +19,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/SetTranscriptionMode.srv"
   "srv/LLMResponse.srv"
   "srv/SetLLMSettings.srv"
+  "srv/DeepAgentResponse.srv"
+  "srv/SetDeepAgentResponse.srv"
   "msg/Transcription.msg"
   DEPENDENCIES geometry_msgs
 )
