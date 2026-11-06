@@ -21,6 +21,9 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/SetLLMSettings.srv"
   "srv/DeepAgentResponse.srv"
   "srv/SetDeepAgentResponse.srv"
+  "srv/Talk.srv"
+  "srv/QuestionAnswer.srv"
+  "srv/TextToAudio.srv"
   "msg/Transcription.msg"
   DEPENDENCIES geometry_msgs
 )

@@ -1,0 +1,9 @@
+# Request
+string text_file_path  # .txt file; each non-empty line becomes one audio file
+string output_folder   # Folder for audio_0001.wav, audio_0002.wav, ... (created if missing)
+string language        # 'es' or 'en'. "" -> node's language
+---
+# Response
+bool success
+string message
+int32 generated        # Number of audio files written

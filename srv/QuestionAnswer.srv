@@ -1,0 +1,9 @@
+# Request
+string tag         # Key of a predefined question in data.csv (e.g. 'name', 'age', 'drink'),
+                   # or a free question to ask when the key is not in data.csv
+string language    # 'es' or 'en'. "" -> node's language
+---
+# Response
+bool success       # false if no valid answer was heard after every attempt
+string answer      # Extracted answer, e.g. 'John', '21', 'Coke'
+string message     # What happened, e.g. the error when the robot could not speak or listen

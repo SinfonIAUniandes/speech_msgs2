@@ -1,0 +1,10 @@
+# Request
+string text        # Phrase the robot must say
+string language    # 'es', 'en' or a NAOqi language name ('Spanish', 'English'). "" -> node's language
+bool wait          # true: return only when the robot has finished speaking
+bool animated      # true: gesture while talking
+int16 speed        # Speech speed 50-400. 0 -> robot default (100)
+---
+# Response
+bool success
+string message
